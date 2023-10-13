@@ -12,6 +12,6 @@ number =>2 to power 53 range, bigint, string, boolean, null=>standalone value, u
 null represent khaali, unique ke liye symbol use krte   kaafi jyada react mein
  */
 console.log(typeof undefined);//undefined
-console.log(typeof null);//object
+console.log(typeof null);//objectv
 console.log(typeof 3);
 console.log(typeof "DHol");
