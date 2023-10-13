@@ -39,3 +39,29 @@ console.log(typeof b3);
 console.log(b3);
 console.log("---------------------")
 
+console.log("1"+2,typeof ("1"+2));
+console.log(1+"2",typeof (1+"2"));
+console.log("1"+2+4,typeof ("1"+2+4));
+console.log(1+"2"+4,typeof(1+"2"+4));
+console.log(1+2+"4",typeof(1+2+"4") );
+
+console.log("*****************************")
+
+console.log("1"-2,typeof ("1"+2));
+console.log(1-"2",typeof (1+"2"));
+console.log("1"-2-4,typeof ("1"+2+4));
+console.log(1-"2"-4,typeof(1+"2"+4));
+console.log(1-2-"4",typeof(1+2+"4") );
+
+console.log("*****************************")
+
+let gameCounter=100;
+++gameCounter;
+console.log(gameCounter);
+
+let num1,num2,num3
+num1=num2=num3=4+8
+console.log(num1,num2,num3)
+
+console.log(+true)
+console.log(-true)
